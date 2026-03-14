@@ -1,6 +1,6 @@
 <!-- Header animado con capsule-render -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Alexander+Cifuentes+Sanchez+👨‍💻&animation=fadeIn&type=waving&color=gradient&customColorList=5&height=120&fontSize=40&fontAlignY=65&textBg=true"/>
+  <img src="https://capsule-render.vercel.app/api?text=Alexander+Cifuentes+Sanchez+👨‍💻&animation=fadeIn&type=waving&color=gradient&customColorList=5&height=120&fontSize=40&fontAlignY=65&fontColor=d6ace6"/>
 </p>
 
 <!-- Título y subtítulo centrado -->

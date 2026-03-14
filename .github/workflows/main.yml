@@ -1,11 +1,9 @@
 name: Generate Datas
-
 on:
   schedule:
     - cron: "0 5 * * 1" # semanal: lunes 00:00 Colombia (UTC-5)
   workflow_dispatch:
 
-# Permisos para que el token pueda escribir al repo (necesario para publicar)
 permissions:
   contents: write
 
@@ -17,7 +15,7 @@ jobs:
     name: Jobs to update datas
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (opcional, pero recomendado)
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Asegurar carpeta de salida
@@ -25,10 +23,11 @@ jobs:
 
       - name: Generar Snake SVG
         uses: Platane/snk@v3
-        id: snake-gif
         with:
-          github_user_name: AL3X09  # <-- cambia por tu usuario
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: AL3X09
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Verificar que el SVG existe
         run: |

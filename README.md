@@ -1,10 +1,10 @@
 <!-- Header animado con capsule-render -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Alexander+Cifuentes+👨‍💻&animation=fadeIn&type=waving&color=gradient&customColorList=12&height=120&fontSize=40&fontAlignY=65"/>
+  <img src="https://capsule-render.vercel.app/api?text=Alexander+Cifuentes+Sanchez+👨‍💻&animation=fadeIn&type=waving&color=gradient&customColorList=5&height=120&fontSize=40&fontAlignY=65"/>
 </p>
 
 <!-- Título y subtítulo centrado -->
-<h2 align="center">Software Engineer | Backend Developer | BI Specialist</h2>
+<h2 align="center">Software Engineer | Backend Developer | BI Developer</h2>
 <h4 align="center">🇨🇴 Bogotá, Colombia · 8+ años de experiencia</h4>
 
 ---
@@ -35,7 +35,7 @@ rol          : "Ingeniero de Desarrollo de Software"
 experiencia  : "8+ años en sectores público y privado"
 ubicacion    : "Bogotá, Colombia 🇨🇴"
 especialidad :
-  - "Desarrollo Backend (C# / .NET Core / Java / PHP)"
+  - "Desarrollo Backend (C# / .NET Core / Java / PHP / PYTHON)"
   - "Business Intelligence & Power BI"
   - "Diseño de REST APIs & Arquitectura Escalable"
   - "Automatización de Procesos con Python"
